@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Joe Mason",
+      "email": "joe@mason.com"
+    },
+    {
+      "name": "Cody Coderson",
+      "email": "cody@coderson.com",
+      "id": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "neighborhood": "Berry Hill",
+      "address": "123 Road Street",
+      "phone": "615-555-1234"
+    },
+    {
+      "id": 2,
+      "neighborhood": "West Nashville",
+      "address": "123 Street Road",
+      "phone": "615-555-1122"
+    },
+    {
+      "id": 3,
+      "neighborhood": "Broadway",
+      "address": "123 Lane Court",
+      "phone": "615-555-9989"
+    }
+  ],
+  "appetizers": [
+    {
+      "id": 1,
+      "name": "No Appetizer",
+      "description": "N/A",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "name": "App seed data",
+      "description": "seedy",
+      "price": 10.5
+    },
+    {
+      "id": 3,
+      "name": "App 2",
+      "description": "Chefs choice",
+      "price": 10.5
+    }
+  ],
+  "entrees": [
+    {
+      "id": 1,
+      "name": "No Entree",
+      "description": "N/A",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "name": "Entree seed data",
+      "description": "seedy",
+      "price": 21
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "name": "No Dessert",
+      "description": "N/A",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "name": "Dessert seed data",
+      "description": "seedy",
+      "price": 12.5
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "name": "No Drink",
+      "description": "N/A",
+      "price": 0
+    },
+    {
+      "id": 2,
+      "name": "Drink seed data",
+      "description": "seedy",
+      "price": 9.75
+    }
+  ],
+  "orders": [
+    {
+      "locationId": 1,
+      "appetizerId": 2,
+      "entreeId": 2,
+      "dessertId": 2,
+      "drinkId": 1,
+      "userId": 1,
+      "dateOrdered": "Wed Dec 08 2021",
+      "id": 1
+    },
+    {
+      "locationId": 2,
+      "appetizerId": 2,
+      "entreeId": 2,
+      "dessertId": 2,
+      "drinkId": 1,
+      "userId": 1,
+      "dateOrdered": "Wed Dec 08 2021",
+      "id": 2
+    },
+    {
+      "locationId": 1,
+      "appetizerId": 1,
+      "entreeId": 2,
+      "dessertId": 1,
+      "drinkId": 2,
+      "userId": 2,
+      "dateOrdered": "Wed Dec 08 2021",
+      "id": 3
+    },
+    {
+      "locationId": 2,
+      "appetizerId": 1,
+      "entreeId": 2,
+      "dessertId": 2,
+      "drinkId": 2,
+      "userId": 1,
+      "dateOrdered": "Thu Dec 09 2021",
+      "id": 4
+    },
+    {
+      "locationId": 1,
+      "appetizerId": 3,
+      "entreeId": 1,
+      "dessertId": 2,
+      "drinkId": 2,
+      "userId": 1,
+      "dateOrdered": "Mon Dec 13 2021",
+      "id": 5
+    },
+    {
+      "locationId": 3,
+      "appetizerId": 1,
+      "entreeId": 1,
+      "dessertId": 1,
+      "drinkId": 2,
+      "userId": 1,
+      "dateOrdered": "Mon Dec 13 2021",
+      "id": 6
+    },
+    {
+      "locationId": 3,
+      "appetizerId": 2,
+      "entreeId": 1,
+      "dessertId": 1,
+      "drinkId": 2,
+      "userId": 2,
+      "dateOrdered": "Mon Dec 13 2021",
+      "id": 7
+    },
+    {
+      "locationId": 3,
+      "appetizerId": 2,
+      "entreeId": 2,
+      "dessertId": 2,
+      "drinkId": 1,
+      "userId": 1,
+      "dateOrdered": "Mon Dec 13 2021",
+      "id": 8
+    }
+  ],
+  "reviews": [
+    {
+      "locationId": 1,
+      "userId": 2,
+      "post": "test 1",
+      "id": 1
+    },
+    {
+      "locationId": 2,
+      "userId": 2,
+      "post": "test 2",
+      "id": 2
+    },
+    {
+      "locationId": 3,
+      "userId": 1,
+      "post": "test 3",
+      "id": 3
+    },
+    {
+      "locationId": 1,
+      "userId": 1,
+      "post": "test 4",
+      "id": 4
+    }
+  ]
+}
